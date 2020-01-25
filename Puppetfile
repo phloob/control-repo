@@ -15,3 +15,6 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+mod 'puppetlabs/stdlib'
+mod 'yourmodule',
+  :git => 'https://github.com/phloob/control-repo'
